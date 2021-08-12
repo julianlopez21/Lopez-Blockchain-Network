@@ -1,0 +1,37 @@
+=============== Aug 11, 2021 (CDT) ===============
+19:08:11.086878 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:08:11.140522 db@open opening
+19:08:11.143361 version@stat F·[] S·0B[] Sc·[]
+19:08:11.157683 db@janitor F·2 G·0
+19:08:11.157729 db@open done T·17.18158ms
+=============== Aug 11, 2021 (CDT) ===============
+19:11:16.415714 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:11:16.416177 version@stat F·[] S·0B[] Sc·[]
+19:11:16.416209 db@open opening
+19:11:16.416291 journal@recovery F·1
+19:11:16.419360 journal@recovery recovering @1
+19:11:16.428961 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
+19:11:16.431625 version@stat F·[1] S·176B[176B] Sc·[0.25]
+19:11:16.465683 db@janitor F·3 G·0
+19:11:16.465722 db@open done T·49.49811ms
+20:21:31.983320 memdb@flush N·36521 S·3MiB
+20:21:32.009977 memdb@flush created L0@6 N·36521 S·593KiB "loc..seq,v26":"n:\xff..ong,v33040"
+20:21:32.010269 version@stat F·[2] S·593KiB[593KiB] Sc·[0.50]
+20:21:32.020509 memdb@flush committed F·1 T·36.79838ms
+20:21:32.046214 journal@remove removed @3
+20:21:46.547125 table@compaction L0·2 -> L1·0 S·593KiB Q·36730
+20:21:46.569956 table@build created L1@7 N·5146 S·185KiB "loc..seq,v26":"version,v1"
+20:21:46.570030 version@stat F·[0 1] S·185KiB[0B 185KiB] Sc·[0.00 0.00]
+20:21:46.583230 table@compaction committed F-1 S-408KiB Ke·0 D·31377 T·36.0467ms
+20:21:46.584233 table@remove removed @6
+21:18:16.581604 memdb@flush N·36484 S·3MiB
+21:18:16.612656 memdb@flush created L0@9 N·36484 S·559KiB "n:\x00..ing,v57832":"n:\xff..ong,v44291"
+21:18:16.612733 version@stat F·[1 1] S·744KiB[559KiB 185KiB] Sc·[0.25 0.00]
+21:18:16.622630 memdb@flush committed F·1 T·40.611634ms
+21:18:16.656472 journal@remove removed @5
+21:19:10.930374 table@compaction L0·1 -> L1·1 S·744KiB Q·73533
+21:19:10.961618 table@build created L1@10 N·8100 S·287KiB "loc..seq,v26":"version,v1"
+21:19:10.961698 version@stat F·[0 1] S·287KiB[0B 287KiB] Sc·[0.00 0.00]
+21:19:10.972036 table@compaction committed F-1 S-457KiB Ke·0 D·33530 T·40.825238ms
+21:19:10.974158 table@remove removed @9
+21:19:10.974503 table@remove removed @7
